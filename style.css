@@ -72,7 +72,10 @@ body{
     z-index: 1;
     box-shadow: 3px 3px 4px rgb(226, 178, 250);
     display:none;
+    
 }
+
+
 .auth-header{
     display:flex;
     align-items: center;
@@ -131,7 +134,8 @@ body{
 #signup-toggle button{
     border:0px;
     color:blue;
-    background-color: transparent;
+    background-color: transparent;    
+    transform: scale(0.85);
 }
 #signup-toggle button:hover{
     text-decoration: underline;
@@ -210,7 +214,7 @@ body{
 }
 .key-feature:hover{
     transition-duration: 0.4s;
-    background-color: rgba(54, 54, 54, 0.423);
+    background-color: transparent(54, 54, 54, 0.423);
 }
 /* Key feature ends */
 /* search-jobs begins */
@@ -222,6 +226,8 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    font-family: "Arial";
+    font-weight: lighter;
   }
   
   .filter-container select {
@@ -332,4 +338,16 @@ footer div{
     .float-container{
         width:80%;
     }
+}
+
+button#login:hover{
+    background-color: rgb(13, 235, 201);
+    color: white; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#signup:hover {
+    background-color: royalblue;
+       color: white; 
+       transition: background-color 0.3s ease, color 0.3s ease; 
 }
